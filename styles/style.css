@@ -1,0 +1,35 @@
+
+
+.top-influencer{
+
+} 
+
+.influencer-blog{
+    display: flex;
+    
+}
+.blog-info{
+
+}
+
+.blog-title{
+
+}
+    .link-button{
+
+        text-decoration: none;
+        flex-direction: row;
+        align-items: flex-start;
+        background:#E02C6D; ; 
+        color: white;
+        font-weight: 700;
+        border-radius: 40px;
+        padding: 10px 24px;
+
+    }
+
+    .top-camera{
+    width: 440px;
+    height: 414px;
+    }
+ 
