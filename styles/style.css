@@ -152,12 +152,9 @@ a:hover {
 }
 
 
-.more-button .button{
-    
-     display:flex;
-     justify-content:right;
-    text-decoration: none;
-    color: #E02C6D;
+.see-more{
+    display:flex;
+    justify-content:right;
     font-weight: 700;
     padding-top: 50px;
     padding-bottom: 5px;
