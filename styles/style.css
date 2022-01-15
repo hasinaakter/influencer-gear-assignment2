@@ -6,66 +6,61 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #ecebeb;
 }
-.top-influencer{
-    margin-left: 120px;
-
-
+.container{
+max-width: 1200px;
+margin: 0 auto;
 } 
 
-.influencer-blog{
+.nav-bar{
     display: flex;
-    margin-top: 145px;
-
-
-    
+    justify-content: space-between;
+    align-items: center;
 }
-.blog-info{
-color: #3A3A3A;
+ .nav-right ul{
+display: flex;
+ }
+ .nav-right ul li{
 
-}
+    list-style: none;
+    margin-right: 15px;
+     }
 
-.blog-title{
-    position: relative;
-    font-size: 52px;
-
-}
-
-
-.blog-short-info{
-
-    font-size: 16px;
-    margin-bottom: 18px;
-}
-    .link-button{
-
+     .nav-right ul li a{
+        color: black;
         text-decoration: none;
-        flex-direction: row;
-        align-items: flex-start;
-        background:#E02C6D; ; 
-        color: white;
-        font-weight: 700;
-        border-radius: 40px;
-        padding: 10px 24px;
+     }
 
-    }
+.hero{
+    display: flex;
+    align-items: center;
 
-    .top-camera{
-    width: 440px;
-    height: 414px;
-    margin-left: 113px;
+     }
+.hero-left p{
+    color: gray;
+    margin-right: 200px;
+    margin-bottom: 40px;
 
-    }
- 
+}
+.hero-left a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 50px;
+}
+
 /* couses styles */
 .course-container{
     margin-left: 196px;
     margin-right: 196px;
-
+    text-align: center;
+    justify-content:center;
 }
 .container-title{
     font-size: 28px;
     text-align: center;
     margin-bottom: 30px;
+   
 
 }
 
@@ -75,6 +70,8 @@ color: #3A3A3A;
     grid-template-columns: repeat(3,1fr);
    grid-column-gap: 30px;
    grid-row-gap: 30px;
+   text-align: center;
+   justify-content:center;
 
 }
 
@@ -117,7 +114,7 @@ color: #3A3A3A;
     .rating-info{
         display: flex;
         align-items: center;
-        justify-content:initial;
+        justify-content:center;
     }
 
      .fa-star{
@@ -149,8 +146,9 @@ color: #3A3A3A;
 
 
 .more-button .button{
-    justify-content: flex-end;
-     display: flex;
+    
+     display:flex;
+     justify-content:right;
     text-decoration: none;
     color: #E02C6D;
     font-weight: 700;
@@ -159,29 +157,78 @@ color: #3A3A3A;
 
     }
 
-.footer-site{
-  
-    
+footer{
     text-align: center;
-    background: black;
+    justify-content:center;
+     background: black;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0%;
 
 }
-.footer-class{
+.footer-text {
     display: flex;
     align-items: center;
     justify-content:center;
-
+    padding-left:3px;
+    padding-right: 3px;
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-.footer-icons{
-  
+.icons{
+    padding-left: 8px;
+    padding-right: 8px;
 }
+
+/* ---------- Media Queries ------------- */
+
+         /* For Mobile devices */
+         @media only screen and (max-width:688px){
+            
+            .container{
+                width: 100%;
+            }
+            .nav-bar{
+                flex-direction: column;
+            }
+            .hero{
+                flex-direction: column;
+            }
+            .hero-left{
+                order: 2;
+            }
+            .hero-right{
+                order: 1;
+            }
+
+            .hero-left p{
+                margin-right: 0px;
+            }
+             .courses{
+                grid-template-columns: repeat(1,1fr);
+
+            }
+            
+        
+         }
+         /*For tablet devices*/
+         @media only screen and (min-width:688px) and (max-width:992px){
+
+            .courses{
+
+                grid-template-columns: repeat(2,1fr);
+
+
+            }
+         }
+
+
+
+
+
+
 
 
 
