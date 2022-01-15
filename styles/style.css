@@ -1,19 +1,39 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ecebeb;
+}
 .top-influencer{
+    margin-left: 120px;
+
 
 } 
 
 .influencer-blog{
     display: flex;
+    margin-top: 145px;
+
+
     
 }
 .blog-info{
 
+
 }
 
 .blog-title{
+    font-size: 52px;
 
+
+}
+
+.blog-short-info{
+
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 18px;
 }
     .link-button{
 
@@ -31,5 +51,93 @@
     .top-camera{
     width: 440px;
     height: 414px;
+    margin-left: 113px;
+
     }
  
+/* couses styles */
+.course-container{
+    margin-left: 196px;
+    margin-right: 196px;
+
+}
+.container-title{
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.courses{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.course{
+    width: 329px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 16px 18px;
+   
+   
+}
+    .course .course-banner img{
+        width: 300px;
+        height: 256px;
+
+    }
+    .course-info .course-title{
+        font-size: 28px;
+        margin-top: 5px;
+        font-weight: 500;
+
+        color: #18191F;
+        margin-bottom: -5px;
+      
+    }
+
+    .course-info .course-price{
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: 400;
+
+
+    }
+    .rating-info{
+        display: flex;
+        align-items: center;
+        justify-content:initial;
+    }
+
+     .fa-star{
+       color: #FB8200;
+       width: 16px;
+        height: 16px;
+
+
+    }
+    .fa-star-half-alt{
+        color: #FB8200;
+        width: 16px;
+        height: 16px;
+        
+    }
+    .rating-stars{
+    
+    }
+
+    .rating-digits{
+        font-size: 14px;
+        margin-left: 16px;
+
+            }
+.course-short-info{
+    align-items: center;
+
+}
+
+
+   
