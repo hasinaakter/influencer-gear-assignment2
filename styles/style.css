@@ -49,6 +49,9 @@ display: flex;
     color: white;
     border-radius: 50px;
 }
+a:hover {
+    background-color: rgb(175, 184, 190);
+  }
 
 /* couses styles */
 
