@@ -20,20 +20,20 @@ body{
     
 }
 .blog-info{
-
+color: #3A3A3A;
 
 }
 
 .blog-title{
+    position: relative;
     font-size: 52px;
 
-
 }
+
 
 .blog-short-info{
 
     font-size: 16px;
-    color: #3A3A3A;
     margin-bottom: 18px;
 }
     .link-button{
@@ -79,7 +79,7 @@ body{
 }
 
 .course{
-    
+   
     width: 320px;
     height: 476px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -147,8 +147,21 @@ body{
 
 }
 
-.footer-site{
 
+.more-button .button{
+    justify-content: flex-end;
+     display: flex;
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 5px;
+
+    }
+
+.footer-site{
+  
+    
     text-align: center;
     background: black;
     color: white;
@@ -158,6 +171,10 @@ body{
 
 }
 .footer-class{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
     font-family: 'Inter', sans-serif;
     font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
