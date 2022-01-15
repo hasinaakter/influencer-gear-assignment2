@@ -53,6 +53,17 @@ a:hover {
     background-color: rgb(175, 184, 190);
   }
 
+  h1{
+    width: 50%;
+  transition: width 2s;
+}
+  
+  h1:hover{
+    width: 90%;
+    background: rgb(124, 120, 120);
+      
+  }
+
 /* couses styles */
 
 .container-title{
