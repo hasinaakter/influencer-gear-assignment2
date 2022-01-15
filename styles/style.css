@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #ecebeb;
 }
+
 .container{
 max-width: 1200px;
 margin: 0 auto;
@@ -50,12 +51,7 @@ display: flex;
 }
 
 /* couses styles */
-.course-container{
-    margin-left: 196px;
-    margin-right: 196px;
-    text-align: center;
-    justify-content:center;
-}
+
 .container-title{
     font-size: 28px;
     text-align: center;
@@ -130,10 +126,7 @@ display: flex;
         height: 16px;
         
     }
-    .rating-stars{
     
-    }
-
     .rating-digits{
         font-size: 14px;
         margin-left: 16px;
@@ -154,8 +147,25 @@ display: flex;
     font-weight: 700;
     padding-top: 50px;
     padding-bottom: 5px;
+    padding-left: 50px;
 
     }
+
+    #extra-image{
+        width: 300px;
+        height: 256px;
+        padding-right: 50px;
+    }
+
+ .link-button{
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 50px;
+
+}
+
 
 footer{
     text-align: center;
@@ -205,6 +215,9 @@ footer{
 
             .hero-left p{
                 margin-right: 0px;
+            }
+            #extra-image{
+                margin-top: 40px;
             }
              .courses{
                 grid-template-columns: repeat(1,1fr);
